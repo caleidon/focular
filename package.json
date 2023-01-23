@@ -1,0 +1,53 @@
+{
+  "name": "focular",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --single",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@iconify/icons-mdi": "^1.2.27",
+    "@iconify/svelte": "^2.2.1",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@tauri-apps/cli": "^1.0.5",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/video.js": "^7.3.42",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "rollup": "^2.77.2",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-svelte-svg": "^1.0.0-beta.6",
+    "rollup-plugin-terser": "^7.0.2",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.1.7",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4",
+    "video.js": "^7.20.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "@tauri-apps/api": "^1.0.2",
+    "@videojs/themes": "^1.0.1",
+    "daisyui": "^2.20.0",
+    "fuse.js": "^6.6.2",
+    "fuzzy-search": "^3.2.1",
+    "sirv-cli": "^2.0.2",
+    "svelte-gallery-view": "^0.0.16",
+    "svelte-navigator": "^3.1.6",
+    "svelte-selecto": "^1.17.0",
+    "svelte-video-player": "^1.2.5",
+    "svelte-yt": "^0.1.2"
+  }
+}

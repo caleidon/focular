@@ -1,0 +1,7 @@
+{
+  "name": "com.envoid.focular",
+  "description": "Focular extension",
+  "path": "C:\\Users\\Caleidon\\Desktop\\Focular\\src-tauri\\target\\debug\\focular.exe",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://mjandldgdfgciicalamkmgfkocaiocaf/"]
+}
